@@ -37,3 +37,9 @@ PiwikConfig config = PiwikWrapper.instance.getConfig("//127.0.0.1/", 1);
 </dependency>
 
 ```
+
+## Code snippet for gwt.xml module
+
+```
+    <inherits name="org.piwik.wrapper.PiwikWrapper"/>
+```
